@@ -1,0 +1,18 @@
+{
+  "app": {
+    "js": [
+      "vendor/bud.app.editor.js",
+      "app.js"
+    ],
+    "dependencies": []
+  },
+  "editor": {
+    "js": [
+      "vendor/bud.app.editor.js",
+      "editor.js"
+    ],
+    "dependencies": [
+      "wp-blocks"
+    ]
+  }
+}
