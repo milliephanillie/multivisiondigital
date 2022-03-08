@@ -1,0 +1,37 @@
+/* stylelint-disable */
+
+/** wide-form **/
+
+.wide-form-wrapper {
+  box-shadow: var(--shadowall);
+  background: var(--white);
+  margin-top: -222px;
+}
+
+.wide-form {
+  padding: 30px 40px;
+  background: var(--white);
+}
+
+.wide-form-banner {
+  padding: 30px 20px;
+}
+
+.wide-form-banner p {
+  margin-bottom: 45px;
+}
+
+.wide-form label input {
+  width: 100%;
+}
+
+.wide-form label p {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.wide-form h4 {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 45px;
+}

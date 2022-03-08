@@ -1,0 +1,24 @@
+.video-modal-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.player-icon-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  align-items: center;
+}
+
+.player-icon {
+  transition: all 0.25s;
+  display: inline-block;
+  width: 74px;
+  height: 74px;
+}

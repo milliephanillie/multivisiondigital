@@ -29,5 +29,9 @@
     "@roots/bud-stylelint": "^5.2.0",
     "@roots/bud-tailwindcss": "^5.2.0",
     "@roots/sage": "^5.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "swiper": "^8.0.7"
   }
 }

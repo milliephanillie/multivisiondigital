@@ -1,0 +1,23 @@
+footer {
+  background-color: black;
+  padding: 60px 0;
+  border-top: 2px solid var(--orange);
+}
+
+.footer h4 {
+  text-transform: capitalize;
+  color: var(--grey);
+}
+
+.footer p,
+.footer li {
+  font-size: var(--psmall);
+  line-height: var(--psmallline);
+  color: var(--darkgrey);
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 1;
+  margin-bottom: 0;
+}

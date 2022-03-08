@@ -1,0 +1,61 @@
+/** grid **/
+
+section {
+  padding: 60px 0;
+}
+
+section.section-alt {
+  background-color: var(--lightgrey);
+}
+
+section.section-alt-2 {
+  background-color: var(--grey);
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.row {
+  max-width: var(--row);
+  margin: 0 auto;
+  display: flex;
+}
+
+.row.center {
+  justify-content: center;
+}
+
+.container .row:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.four-col {
+  width: 25%;
+}
+
+.two-col {
+  width: 50%;
+}
+
+.two-col.even-space {
+  padding-right: 10px;
+}
+
+.two-col.even-space:last-child:not(:first-child) {
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+@media screen and (min-device-width: var(--small)) and (max-device-width: var(--container)) {
+  .four-col {
+    width: 50%;
+  }
+}
+
+/** columns css **/
+
+.ul-col-2 {
+  columns: 2;
+}

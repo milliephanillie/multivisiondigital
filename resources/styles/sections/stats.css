@@ -1,0 +1,15 @@
+/** stats **/
+.stat span {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+/** modules **/
+.short-copy {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.short-copy img {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,13 @@
+.callout-body {
+  display: flex;
+}
+
+.callout-body > div {
+  width: 50%;
+}
+
+.callout.callout-center .callout-body > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

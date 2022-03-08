@@ -1,0 +1,115 @@
+/* stylelint-disable */
+
+/** block services **/
+
+.section.block-services {
+
+}
+
+.block-flip {
+  height: 350px;
+  position: relative;
+  transition: all .6s ease;
+}
+
+.block-content {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.block-content .initial,
+.block-content .block-text {
+ width: 100%;
+}
+
+.blcok-flip {
+  transition: all .6s ease;
+}
+
+.block-flip .block-text {
+  transition: all .6s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.block-flip-inner {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.block-flip:hover {
+  transition: all .6s ease;
+}
+
+.block-flip .block-flip-inner {
+  transition: all .6s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.block-flip:hover .block-flip-inner {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all .6s ease;
+}
+
+.block-flip .block-header {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.block-flip .block-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.block-flip:hover .block-text {
+  visibility: visible;
+  transition: all .6s ease;
+
+  opacity: 1;
+}
+
+.block-flip .initial {
+  display: inline-block;
+  transition: all .6s ease;
+  opacity: 1;
+  font-size: 22px;
+  font-weight: bold;
+  visibility: visible;
+}
+
+.block-flip:hover .initial {
+  visibility: hidden;
+  transition: all .6s ease;
+  opacity: 0;
+}
+
+.block-text h4,
+.initial {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+
+.block-text p:not(:last-child) {
+  margin-bottom: 28px;
+}

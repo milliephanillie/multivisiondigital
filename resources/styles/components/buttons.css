@@ -1,0 +1,59 @@
+.call-to-actions-group {
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-actions-group .call-to-action:not(:last-child) {
+  padding-right: 30px;
+}
+
+button.call-to-action,
+a.call-to-action {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: var(--orange);
+  border-style: solid;
+  border-color: var(--orange);
+  color: var(--white);
+  padding: 10px 30px;
+  border-radius: 4px;
+  display: block;
+}
+
+a.call-to-action.btn-alt {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--orange);
+}
+
+a.call-to-action.btn-alt-2 {
+  background-color: var(--white);
+  border-color: var(--orange);
+  color: var(--orange);
+  border: 2px solid;
+  padding: 8px 30px;
+}
+
+a.block-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  color: var(--white);
+}
+
+a.block-link p {
+  color: var(--white);
+}
+
+a.learn-more,
+span.learn-more {
+  text-decoration: none;
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}

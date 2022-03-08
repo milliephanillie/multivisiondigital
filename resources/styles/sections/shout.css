@@ -1,0 +1,52 @@
+/* stylelint-disable */
+
+/** shout **/
+
+.shout {
+  padding-bottom: 282px;
+}
+
+.shout-out {
+  padding-left: 40px;
+}
+
+.shout-out-single {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%)
+}
+
+.shout-out-quote {
+  padding-bottom: 40px;
+}
+
+.shout-out-quote p {
+  color: var(--grey2);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.shout-out-sig .shout-out-name,
+.shout-out-sig .shout-out-co {
+  display: block;
+}
+
+.shout-out-sig .shout-out-name {
+ color: var(--grey2);
+  font-weight: bold;
+}
+
+.shout-out-sig .shout-out-co {
+  color: var(--cogrey);
+  font-size: 15px;
+  display: inline-block;
+  font-family: inherit;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.75;
+  margin-bottom: 0;
+  margin-top: 1px;
+}

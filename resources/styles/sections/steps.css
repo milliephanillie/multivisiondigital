@@ -1,0 +1,21 @@
+.steps-line {
+  position: relative;
+}
+
+.steps-line::before {
+  content: '';
+  position: absolute;
+  width: 75%;
+  height: 5px;
+  border-bottom: 5px dotted #999;
+  top: 25px;
+  left: 12.4%;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  z-index: 9;
+  position: relative;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,33 @@
+/* stylelint-disable */
+
+/** different **/
+
+.different {
+  position: relative;
+}
+
+.different-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 60%);
+  top: 0;
+  left: 0;
+}
+
+section.different p,
+section.different h3,
+section.different h4 {
+  color: var(--white);
+  font-weight: bold;
+}
+
+section.different p {
+  font-weight: 100;
+  letter-spacing: .75px;
+}
+
+.different-content {
+  z-index: 1;
+}
+

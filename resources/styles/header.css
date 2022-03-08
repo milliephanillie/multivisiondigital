@@ -1,0 +1,14 @@
+header.header-banner {
+  background: var(--white);
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: var(--shadowbig);
+  position: relative;
+  z-index: 1;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

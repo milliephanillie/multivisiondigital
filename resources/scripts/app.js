@@ -4,7 +4,7 @@ import {domReady} from '@scripts/components';
  * Run the application when the DOM is ready.
  */
 domReady(() => {
-  // Application code.
+    // Application code.
 });
 
 /**

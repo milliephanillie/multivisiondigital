@@ -25,4 +25,8 @@ class ThemeServiceProvider extends ServiceProvider
     {
         //
     }
+
+    public function title_me() {
+    	return "this";
+    }
 }
